@@ -60,11 +60,11 @@ class prabhakar {
 	        }
 	    }
 	    else if (leftIndex < left.length) {
-            // If all elements have been copied from rightArray, copy rest of leftArray
+           
             array[i] = left[leftIndex];
             leftIndex++;
         } else if (rightIndex < right.length) {
-            // If all elements have been copied from leftArray, copy rest of rightArray
+           
             array[i] = right[rightIndex];
             rightIndex++;
         }
