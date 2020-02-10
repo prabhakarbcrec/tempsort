@@ -1,5 +1,7 @@
 https://ide.geeksforgeeks.org/cdPM9zDe4v
 
+https://ide.geeksforgeeks.org/EQgwj8nSvR
+
 above link is to refer on GFG
 
 import java.io.*;
