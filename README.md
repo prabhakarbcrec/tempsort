@@ -2,6 +2,9 @@ https://ide.geeksforgeeks.org/cdPM9zDe4v
 
 https://ide.geeksforgeeks.org/EQgwj8nSvR
 
+
+https://www.java2novice.com/java-sorting-algorithms/quick-sort/ start sortinmg from here
+
 above link is to refer on GFG
 
 import java.io.*;
