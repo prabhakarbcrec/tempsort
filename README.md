@@ -1,3 +1,25 @@
+import matplotlib.pyplot as plt
+ax = plt.gca()
+font = {'family': 'serif',
+        'color':  'darkred',
+        'weight': 'normal',
+        'size': 16,
+        }
+plt.xlabel('Date and Time',fontdict=font)
+plt.ylabel('Number Of Confirmed cases of Covid-19',fontdict=font)
+plt.title('Covid-19 Data Analysis Among Countrys',fontdict=font)
+plt.text(55, 10, r'$INDIA$', fontdict=font)
+plt.legend()
+#plt.text(55, 3, r'$INDIA$', fontdict=font)
+#fig.set_size_inches(30.5, 20.5)
+covidIndData.plot(x='Last Update',y='Confirmed',label='INDIA',color='Black',figsize=(16,10),ax=ax)
+covidItalyData.plot(x='Last Update',y='Confirmed',color='red',label='ITALY',ax=ax)
+covidSpainData.plot(x='Last Update',y='Confirmed',color='blue',label='SPAIN',ax=ax)
+#Pakistan.plot(x='Last Update',y='Confirmed',color='green',label='PAKISTAN',ax=ax)
+
+
+
+
 code share li k:
 https://drive.google.com/file/d/1lcCzCu6q9vfBzLubwhn0UFtDBa2-QLtx/view?usp=sharing coda
 
